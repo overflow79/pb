@@ -1,0 +1,18 @@
+{
+  // Required
+  "name":"pocket baseball for chrome",
+  "version":"0.1",
+  "manifest_version": 2,
+// Recommended
+  "description":"pocket baseball for chrome",
+  "icons":{ "24":"24.png",
+            "32":"32.png",
+            "48":"48.png",
+           "128":"128.png"},
+  // Optional
+  "permissions":["unlimited_storage","notifications"],
+  "browser_action": {
+    "default_icon": "24.png",
+    "default_popup": "index.html"
+  }
+}

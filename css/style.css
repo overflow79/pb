@@ -1,0 +1,98 @@
+html, body, ul, ol, p {margin:0; padding:0;}
+hr {display:none;}
+ul, ol, form, h1, h2, h3, h4, h5, h6, dl, dt, dd {margin:0; padding:0}
+img {border:none;}
+a:link      {text-decoration:none}
+a:visited   {text-decoration:none}
+a:hover     {text-decoration:none}
+a:active    {text-decoration:none}
+body {
+	color: #5F6164;
+	background: #f3f3f3;
+	font-family: '돋움',Dotum,Helvetica,sans-serif;
+	font-size: 11px;
+}
+ul, ol {
+	list-style: none;
+	list-style-position: inside;
+}
+.wrap {width:400px;}
+.box {width:100%;max-height:400px;overflow:auto;clear:both;}
+.inbox {width:100%;clear:both;}
+.ininbox {width:100%;clear:both;}
+.score_table td {text-align:center}
+.score_table img {width: 50px; height: 50px}
+.pitcher {color:#000}
+.score {
+	color:blue;
+	font-weight: bold;
+	font-size: 14px;
+}
+.nav {
+	width:100%;
+	height:25px;
+}
+.nav_ul1, .nav_ul2, .nav_ul3 {width:100%}
+.nav_ul1 li a, .nav_ul2 li a, .nav_ul3 li a, .nav_ul4 li a, .nav_ul5 li a {
+	display: block;
+	float: left;
+	text-align: center;
+	/*font-weight: bold;*/
+	padding-top: 5px;
+	cursor: pointer;
+	width: 93px;
+	height: 20px;
+	border-bottom:1px solid #888;
+	border-right:1px solid #888;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+}
+.nav_ul2 li a, .nav_ul4 li a {
+	background: #FDE2E8;
+	border-bottom:1px solid #FEAABC;
+	border-right:1px solid #FEAABC;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+}
+.nav_ul4 li a, .nav_ul5 li a {
+	width: 74px;
+}
+.nav_ul3 li a, .nav_ul5 li a {
+	background: #D3E7FF;
+	border-bottom:1px solid #80B7FB;
+	border-right:1px solid #80B7FB;
+	border-left:1px solid #fff;
+	border-top:1px solid #fff;
+}
+.nav_ul1 li a.on{
+	background: #888;
+	color: #fff;
+}
+.nav_ul2 li a.on, .nav_ul4 li a.on{
+	background: #FEAABC;
+	color: #fff;
+}
+.nav_ul3 li a.on, .nav_ul5 li a.on{
+	background: #80B7FB;
+	color: #fff;
+}
+#rank_table {text-align: center;font-weight: bold;background: #fff;border-collapse:collapse;border: 1px solid #ddd}
+#rank_table th,td {padding:4px 0 4px 0;}
+#rank_table .highlight {font-weight: bold;background: #ddd;}
+#rank_table .team {text-align: left;}
+img {vertical-align: middle}
+.title {width:100%;/*font-weight: bold;*/text-align: center;margin-top:5px;}
+#About {
+	text-align: center;
+	background: #ddd;
+	height: 300px;
+	padding-top:50px;
+}
+.record {color:#0089FE;font-size:14px;}
+.desc {font-weight:normal;}
+.close_btn {
+	position: relative;
+	left: 225px;
+	top: -15px;
+	cursor: pointer;
+}
